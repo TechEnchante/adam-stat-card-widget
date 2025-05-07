@@ -1,0 +1,71 @@
+body {
+  background-color: #0f172a;
+  margin: 0;
+  padding: 2rem;
+}
+
+.tooltip {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted #93c5fd;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  background-color: #111827;
+  color: #f9fafb;
+  text-align: left;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  position: absolute;
+  z-index: 10;
+  width: max-content;
+  max-width: 300px;
+  bottom: 125%;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 255, 180, 0.2);
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.left-col,
+.right-col {
+  flex: 1 1 45%;
+  min-width: 0;
+}
+
+.quest-node {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+}
+
+.quest-title {
+  font-weight: bold;
+  color: #60a5fa;
+  font-size: 1.1rem;
+}
+
+.quest-sub {
+  color: #a3e635;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.quest-desc {
+  color: #d1d5db;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}

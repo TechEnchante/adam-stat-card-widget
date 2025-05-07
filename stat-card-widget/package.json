@@ -1,0 +1,17 @@
+{
+    "name": "stat-card-widget",
+    "version": "1.0.0",
+    "description": "Drop‑in stat‑card widget for Adam Roberts",
+    "author": "Adam Roberts <adam.r.popescu@gmail.com>",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "dev": "rollup -c -w",
+        "build": "rollup -c",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "rollup": "^3.29.5",
+        "rollup-plugin-copy": "^3.4.0"
+    }
+}
