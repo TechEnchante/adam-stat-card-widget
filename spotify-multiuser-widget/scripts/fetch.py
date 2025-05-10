@@ -1,6 +1,6 @@
 import json, requests, os
 
-# Spotify credentials stored in GH secrets
+#Spotify credentials stored in GH secrets
 CLIENT_ID = os.getenv('SPOTIFY_CLIENT_ID')
 CLIENT_SECRET = os.getenv('SPOTIFY_CLIENT_SECRET')
 
