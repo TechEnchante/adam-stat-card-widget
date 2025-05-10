@@ -1,0 +1,10 @@
+[
+    {
+      "name": "Alice",
+      "refreshToken": "<ALICE_REFRESH_TOKEN>"
+    },
+    {
+      "name": "Bob",
+      "refreshToken": "<BOB_REFRESH_TOKEN>"
+    }
+  ]
